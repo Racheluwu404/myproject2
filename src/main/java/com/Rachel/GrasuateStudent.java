@@ -11,6 +11,7 @@ public class GrasuateStudent extends Student{
         //super(name); = this.name = name;
     }
 
+    @Override
     public void print(){
         System.out.println(name + "\t" + math + "\t" +english +
                 "\t" + getAverage() + "\t" + thesis);
