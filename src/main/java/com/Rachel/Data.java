@@ -6,7 +6,7 @@ public class Data {
         Aries.print();
         SliverCustomer Hans = new SliverCustomer("002",4200);
         Hans.print();
-        GoldenCustomer Bill = new GoldenCustomer("003",650000);
+        GoldenCustomer Bill = new GoldenCustomer("003",65000);
         Bill.print();
     }
 }

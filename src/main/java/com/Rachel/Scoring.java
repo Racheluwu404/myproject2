@@ -6,5 +6,9 @@ public class Scoring {
     Henry.english = 50;
     Henry.math = 30;
     Henry.print();
+    Student Amelia = new Student("Amelia",80,70);
+    Amelia.print();
+    GrasuateStudent Alphy = new GrasuateStudent("Alphy",60,70,90);
+    Alphy.print();
   }
 }
