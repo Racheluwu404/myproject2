@@ -28,6 +28,7 @@ public class Student {
     }
     System.out.println();
   }
+  //test
   public int getAverage(){
     return (english+math)/2 ;
   }
