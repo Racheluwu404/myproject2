@@ -10,10 +10,11 @@ public class GrasuateStudent extends Student{
         this.thesis = thesis;
         //super(name); = this.name = name;
     }
+
     public void print(){
-        System.out.print(name + "\t" + math + "\t" +english +
+        System.out.println(name + "\t" + math + "\t" +english +
                 "\t" + getAverage() + "\t" + thesis);
 
-        System.out.println();
+        //System.out.println();
     }
 }
