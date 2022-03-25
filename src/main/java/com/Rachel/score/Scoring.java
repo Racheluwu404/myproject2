@@ -1,4 +1,4 @@
-package com.Rachel;
+package com.Rachel.score;
 
 public class Scoring {
   public static void main(String[] args) {

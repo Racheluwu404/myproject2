@@ -1,4 +1,4 @@
-package com.Rachel;
+package com.Rachel.score;
 
 public class Student {
   int english;

@@ -1,6 +1,8 @@
-package com.Rachel;
+package com.Rachel.score;
 
-public class GrasuateStudent extends Student{
+import com.Rachel.score.Student;
+
+public class GrasuateStudent extends Student {
     int thesis;
     public GrasuateStudent(){
 

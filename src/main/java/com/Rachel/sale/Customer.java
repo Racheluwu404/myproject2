@@ -1,4 +1,4 @@
-package com.Rachel;
+package com.Rachel.sale;
 
 public class Customer {
     String number;
