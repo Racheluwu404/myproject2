@@ -11,6 +11,7 @@ public class SliverCustomer extends Customer{
     public int point(){
         return ((cost/1000)*100);
     }
+
     @Override
     public void print(){
             System.out.println(number + "\t" + cost + "\t" + discount() + "(" + point() + ")");

@@ -5,7 +5,6 @@ public class Customer {
     int cost;
     float feeback;
     public Customer(){
-
     }
     public Customer(String number,int cost){
         this.number = number;
