@@ -1,14 +1,17 @@
 package com.Rachel.score;
 
+import com.Rachel.sale.Customer;
+
+import java.util.ArrayList;
+
 public class Scoring {
   public static void main(String[] args) {
-    Student Henry = new Student("Henry");
-    Henry.english = 50;
-    Henry.math = 30;
-    Henry.print();
-    Student Amelia = new Student("Amelia",80,70);
-    Amelia.print();
-    GrasuateStudent Alphy = new GrasuateStudent("Alphy",60,70,90);
-    Alphy.print();
+    ArrayList<Student> students = new ArrayList<>();
+    students.add(new Student("Henry",50,30));
+    students.add(new Student("Amelia",80,70));
+    students.add(new GrasuateStudent("Alphy",60,70,90));
+    for(Student s :students){
+      s.print();
+    }
   }
 }

@@ -5,17 +5,18 @@ public class Ticket {
   int end;
   boolean round;
   int amount;
-  public Ticket(){  }
+  public Ticket(){
+  }
 
   public Ticket(int start, int end, boolean round)
   {
     this.start = start;
     this.end = end;
     this.round = round;
-
   }
 
-  public int price(){
+  public void price(){
+
     if(start == 0) {
       if(end == 1) {
         amount = 1500;
@@ -35,14 +36,13 @@ public class Ticket {
         amount = 900;
       }
     }
-    return amount;
 
-    /*if(round == true){
-      amount = (int)(amount*2*0.9);
-      return amount;
-    }else{
 
-    }*/
+    if(round == true) {
+      amount = (int) (amount * 2 * 0.9);
+    }
+
+    System.out.println("total price :" + amount);
 
   }
 
