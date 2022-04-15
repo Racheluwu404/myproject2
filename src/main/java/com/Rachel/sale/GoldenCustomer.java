@@ -1,6 +1,7 @@
 package com.Rachel.sale;
 
 public class GoldenCustomer extends SliverCustomer{
+    int bouns;
     public GoldenCustomer(){
 
     }
