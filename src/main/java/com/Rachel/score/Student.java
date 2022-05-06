@@ -1,6 +1,6 @@
 package com.Rachel.score;
 
-public class Student {
+public class Student implements Printable{
   int english;
   int math;
   String name;
@@ -20,6 +20,7 @@ public class Student {
     this.english = english;
   }
 
+  @Override //防呆 卻保有複寫到
   public void print(){
     System.out.print(name + "\t" + math + "\t" +english +
             "\t" + getAverage());

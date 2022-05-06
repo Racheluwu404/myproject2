@@ -3,7 +3,7 @@ import java.util.*;
 
 public class User
 {
-  static ArrayList<String> afterChoice = new ArrayList<>();
+  static ArrayList<String> afterChoice = new ArrayList<>(3);
   public static void main(String[] args)
   {
     Scanner in = new Scanner(System.in);
@@ -13,6 +13,7 @@ public class User
     afterChoice.addAll(station.Slist());
     int start = in.nextInt();
     System.out.println("Please choice destination Station :");
+    System.out.println(afterChoice);
     afterChoice.remove(start);
     System.out.println(afterChoice);
     int end = in.nextInt();

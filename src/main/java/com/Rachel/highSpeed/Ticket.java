@@ -19,21 +19,21 @@ public class Ticket {
 
     if(start == 0) {
       if(end == 1) {
-        amount = 1500;
+        amount = 1100;
       } else {
-        amount = 600;
+        amount = 500;
       }
     }else if(start == 1){
       if(end == 0){
-        amount = 1500;
+        amount = 1100;
       }else{
-        amount = 900;
+        amount = 600;
       }
     }else{
       if(end == 0){
-        amount = 600;
+        amount = 500;
       }else{
-        amount = 900;
+        amount = 600;
       }
     }
 
