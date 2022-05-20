@@ -14,6 +14,7 @@ public class Data {
         for(Customer c :customers){
             c.print();
         }
+
         Customer c = customers.get(1);
         if(c instanceof SliverCustomer){
             GoldenCustomer fi = (GoldenCustomer) c;

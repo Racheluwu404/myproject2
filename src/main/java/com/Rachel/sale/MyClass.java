@@ -7,4 +7,7 @@ public class MyClass implements MyInterface{
   public int max(int a, int b){
     return 1;
   }
+  public int tt(){
+    return 1;
+  }
 }

@@ -4,6 +4,7 @@ public class SliverCustomer extends Customer{
     public SliverCustomer(){
 
     }
+
     public SliverCustomer(String number , int cost){
         super(number,cost);
     }
@@ -11,6 +12,7 @@ public class SliverCustomer extends Customer{
     public int point(){
         return ((cost/1000)*100);
     }
+
 
     @Override
     public void print(){
