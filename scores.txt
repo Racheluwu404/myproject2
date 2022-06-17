@@ -1,2 +1,2 @@
-"Henry",50,30
-"Amelia",80,70
+Henry,50,30
+Amelia,80,70
